@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3188D8C1A0377A200F3500E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3188D8B1A0377A200F3500E /* AppDelegate.swift */; };
+		A3188D931A0377A200F3500E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3188D921A0377A200F3500E /* Images.xcassets */; };
+		A3188D961A0377A200F3500E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3188D941A0377A200F3500E /* LaunchScreen.xib */; };
+		A3188DA21A0377A200F3500E /* WAEAT_prototype3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3188DA11A0377A200F3500E /* WAEAT_prototype3Tests.swift */; };
+		A3188DB11A03781000F3500E /* WEHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3188DB01A03781000F3500E /* WEHomeViewController.swift */; };
+		A3188DB71A037AA600F3500E /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A3188DB61A037AA600F3500E /* TestClass.m */; };
+		A3188DBC1A037F1B00F3500E /* StoreDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3188DBB1A037F1B00F3500E /* StoreDatabase.swift */; };
+		A3188DBF1A037FAF00F3500E /* StoreObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3188DBE1A037FAF00F3500E /* StoreObject.swift */; };
+		A3188DC21A03B49100F3500E /* people.png in Resources */ = {isa = PBXBuildFile; fileRef = A3188DC11A03B49100F3500E /* people.png */; };
+		A3188DC41A03B5CC00F3500E /* time.png in Resources */ = {isa = PBXBuildFile; fileRef = A3188DC31A03B5CC00F3500E /* time.png */; };
+		A3188DC61A03B93900F3500E /* WEStoreDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3188DC51A03B93900F3500E /* WEStoreDetailViewController.swift */; };
+		A3188DC81A03BC2000F3500E /* phone.png in Resources */ = {isa = PBXBuildFile; fileRef = A3188DC71A03BC2000F3500E /* phone.png */; };
+		A3188DCA1A04A71300F3500E /* location.png in Resources */ = {isa = PBXBuildFile; fileRef = A3188DC91A04A71300F3500E /* location.png */; };
+		A3188DCC1A04B1AB00F3500E /* WEReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3188DCB1A04B1AB00F3500E /* WEReservationViewController.swift */; };
+		A3188DCF1A04B2B400F3500E /* WEMyWaitingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3188DCE1A04B2B400F3500E /* WEMyWaitingViewController.swift */; };
+		A3188DD21A04B3FA00F3500E /* WEFriendViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3188DD11A04B3FA00F3500E /* WEFriendViewController.swift */; };
+		A3188DD71A04B48A00F3500E /* WEMyPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3188DD61A04B48A00F3500E /* WEMyPageViewController.swift */; };
+		A3342D931A09C20600B732EC /* UserDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3342D921A09C20600B732EC /* UserDatabase.swift */; };
+		A356A3611A086EF800E8CD9C /* WEEventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356A3601A086EF700E8CD9C /* WEEventTableViewCell.swift */; };
+		A356A3651A08707900E8CD9C /* temp0.png in Resources */ = {isa = PBXBuildFile; fileRef = A356A3621A08707900E8CD9C /* temp0.png */; };
+		A356A3661A08707900E8CD9C /* temp1.png in Resources */ = {isa = PBXBuildFile; fileRef = A356A3631A08707900E8CD9C /* temp1.png */; };
+		A356A3671A08707900E8CD9C /* temp2.png in Resources */ = {isa = PBXBuildFile; fileRef = A356A3641A08707900E8CD9C /* temp2.png */; };
+		A356A3691A08827400E8CD9C /* ReservationDatabase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356A3681A08827400E8CD9C /* ReservationDatabase.swift */; };
+		A356A36B1A088E9F00E8CD9C /* ReservationObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356A36A1A088E9F00E8CD9C /* ReservationObject.swift */; };
+		A356A36D1A0892FB00E8CD9C /* WEMyWaitingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356A36C1A0892FB00E8CD9C /* WEMyWaitingTableViewCell.swift */; };
+		A356A36F1A08A3AC00E8CD9C /* WEMyReservationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A356A36E1A08A3AC00E8CD9C /* WEMyReservationDetailViewController.swift */; };
+		A3A718DA1A078564007CC527 /* WEReservationConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A718D91A078564007CC527 /* WEReservationConfirmViewController.swift */; };
+		A3CCC08B1A08D82F0089A899 /* WELoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CCC08A1A08D82F0089A899 /* WELoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3188D9C1A0377A200F3500E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3188D7E1A0377A200F3500E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3188D851A0377A200F3500E;
+			remoteInfo = WAEAT_prototype3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3188D861A0377A200F3500E /* WAEAT_prototype3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAEAT_prototype3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3188D8A1A0377A200F3500E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3188D8B1A0377A200F3500E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3188D921A0377A200F3500E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3188D951A0377A200F3500E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A3188D9B1A0377A200F3500E /* WAEAT_prototype3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WAEAT_prototype3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3188DA01A0377A200F3500E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3188DA11A0377A200F3500E /* WAEAT_prototype3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAEAT_prototype3Tests.swift; sourceTree = "<group>"; };
+		A3188DB01A03781000F3500E /* WEHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEHomeViewController.swift; sourceTree = "<group>"; };
+		A3188DB41A037AA600F3500E /* WAEAT_prototype3-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WAEAT_prototype3-Bridging-Header.h"; sourceTree = "<group>"; };
+		A3188DB51A037AA600F3500E /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		A3188DB61A037AA600F3500E /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
+		A3188DBB1A037F1B00F3500E /* StoreDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreDatabase.swift; sourceTree = "<group>"; };
+		A3188DBE1A037FAF00F3500E /* StoreObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreObject.swift; sourceTree = "<group>"; };
+		A3188DC11A03B49100F3500E /* people.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people.png; sourceTree = "<group>"; };
+		A3188DC31A03B5CC00F3500E /* time.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time.png; sourceTree = "<group>"; };
+		A3188DC51A03B93900F3500E /* WEStoreDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEStoreDetailViewController.swift; sourceTree = "<group>"; };
+		A3188DC71A03BC2000F3500E /* phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone.png; sourceTree = "<group>"; };
+		A3188DC91A04A71300F3500E /* location.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = location.png; sourceTree = "<group>"; };
+		A3188DCB1A04B1AB00F3500E /* WEReservationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEReservationViewController.swift; sourceTree = "<group>"; };
+		A3188DCE1A04B2B400F3500E /* WEMyWaitingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEMyWaitingViewController.swift; sourceTree = "<group>"; };
+		A3188DD11A04B3FA00F3500E /* WEFriendViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEFriendViewController.swift; sourceTree = "<group>"; };
+		A3188DD61A04B48A00F3500E /* WEMyPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEMyPageViewController.swift; sourceTree = "<group>"; };
+		A3342D921A09C20600B732EC /* UserDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDatabase.swift; sourceTree = "<group>"; };
+		A356A3601A086EF700E8CD9C /* WEEventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEEventTableViewCell.swift; sourceTree = "<group>"; };
+		A356A3621A08707900E8CD9C /* temp0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp0.png; sourceTree = "<group>"; };
+		A356A3631A08707900E8CD9C /* temp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp1.png; sourceTree = "<group>"; };
+		A356A3641A08707900E8CD9C /* temp2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = temp2.png; sourceTree = "<group>"; };
+		A356A3681A08827400E8CD9C /* ReservationDatabase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationDatabase.swift; sourceTree = "<group>"; };
+		A356A36A1A088E9F00E8CD9C /* ReservationObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationObject.swift; sourceTree = "<group>"; };
+		A356A36C1A0892FB00E8CD9C /* WEMyWaitingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEMyWaitingTableViewCell.swift; sourceTree = "<group>"; };
+		A356A36E1A08A3AC00E8CD9C /* WEMyReservationDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEMyReservationDetailViewController.swift; sourceTree = "<group>"; };
+		A3A718D91A078564007CC527 /* WEReservationConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WEReservationConfirmViewController.swift; sourceTree = "<group>"; };
+		A3CCC08A1A08D82F0089A899 /* WELoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WELoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3188D831A0377A200F3500E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3188D981A0377A200F3500E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3188D7D1A0377A200F3500E = {
+			isa = PBXGroup;
+			children = (
+				A3188D881A0377A200F3500E /* WAEAT_prototype3 */,
+				A3188D9E1A0377A200F3500E /* WAEAT_prototype3Tests */,
+				A3188D871A0377A200F3500E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3188D871A0377A200F3500E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3188D861A0377A200F3500E /* WAEAT_prototype3.app */,
+				A3188D9B1A0377A200F3500E /* WAEAT_prototype3Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3188D881A0377A200F3500E /* WAEAT_prototype3 */ = {
+			isa = PBXGroup;
+			children = (
+				A3188DB31A037A0100F3500E /* Objective-C */,
+				A3188DC01A03B49100F3500E /* Resources */,
+				A3188DAB1A0377BB00F3500E /* Controllers */,
+				A3188DBD1A037F9700F3500E /* Objects */,
+				A3188DB81A037E9F00F3500E /* Connections */,
+				A3188D8B1A0377A200F3500E /* AppDelegate.swift */,
+				A3188D921A0377A200F3500E /* Images.xcassets */,
+				A3188D941A0377A200F3500E /* LaunchScreen.xib */,
+				A3188D891A0377A200F3500E /* Supporting Files */,
+			);
+			path = WAEAT_prototype3;
+			sourceTree = "<group>";
+		};
+		A3188D891A0377A200F3500E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3188D8A1A0377A200F3500E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3188D9E1A0377A200F3500E /* WAEAT_prototype3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A3188DA11A0377A200F3500E /* WAEAT_prototype3Tests.swift */,
+				A3188D9F1A0377A200F3500E /* Supporting Files */,
+			);
+			path = WAEAT_prototype3Tests;
+			sourceTree = "<group>";
+		};
+		A3188D9F1A0377A200F3500E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3188DA01A0377A200F3500E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3188DAB1A0377BB00F3500E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A3188DAD1A0377C700F3500E /* Home */,
+				A3188DCD1A04B29C00F3500E /* My Waiting */,
+				A3188DD01A04B3E900F3500E /* Friend */,
+				A3188DD31A04B46F00F3500E /* My Page */,
+				A3CCC0891A08D81D0089A899 /* Login */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A3188DAD1A0377C700F3500E /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A3188DB01A03781000F3500E /* WEHomeViewController.swift */,
+				A3188DC51A03B93900F3500E /* WEStoreDetailViewController.swift */,
+				A3188DCB1A04B1AB00F3500E /* WEReservationViewController.swift */,
+				A3A718D91A078564007CC527 /* WEReservationConfirmViewController.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A3188DB31A037A0100F3500E /* Objective-C */ = {
+			isa = PBXGroup;
+			children = (
+				A3188DB51A037AA600F3500E /* TestClass.h */,
+				A3188DB61A037AA600F3500E /* TestClass.m */,
+				A3188DB41A037AA600F3500E /* WAEAT_prototype3-Bridging-Header.h */,
+			);
+			name = "Objective-C";
+			sourceTree = "<group>";
+		};
+		A3188DB81A037E9F00F3500E /* Connections */ = {
+			isa = PBXGroup;
+			children = (
+				A3188DBB1A037F1B00F3500E /* StoreDatabase.swift */,
+				A356A3681A08827400E8CD9C /* ReservationDatabase.swift */,
+				A3342D921A09C20600B732EC /* UserDatabase.swift */,
+			);
+			name = Connections;
+			sourceTree = "<group>";
+		};
+		A3188DBD1A037F9700F3500E /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A3188DBE1A037FAF00F3500E /* StoreObject.swift */,
+				A356A36A1A088E9F00E8CD9C /* ReservationObject.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		A3188DC01A03B49100F3500E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A356A3621A08707900E8CD9C /* temp0.png */,
+				A356A3631A08707900E8CD9C /* temp1.png */,
+				A356A3641A08707900E8CD9C /* temp2.png */,
+				A3188DC91A04A71300F3500E /* location.png */,
+				A3188DC71A03BC2000F3500E /* phone.png */,
+				A3188DC31A03B5CC00F3500E /* time.png */,
+				A3188DC11A03B49100F3500E /* people.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A3188DCD1A04B29C00F3500E /* My Waiting */ = {
+			isa = PBXGroup;
+			children = (
+				A3188DCE1A04B2B400F3500E /* WEMyWaitingViewController.swift */,
+				A356A36C1A0892FB00E8CD9C /* WEMyWaitingTableViewCell.swift */,
+				A356A3601A086EF700E8CD9C /* WEEventTableViewCell.swift */,
+				A356A36E1A08A3AC00E8CD9C /* WEMyReservationDetailViewController.swift */,
+			);
+			name = "My Waiting";
+			sourceTree = "<group>";
+		};
+		A3188DD01A04B3E900F3500E /* Friend */ = {
+			isa = PBXGroup;
+			children = (
+				A3188DD11A04B3FA00F3500E /* WEFriendViewController.swift */,
+			);
+			name = Friend;
+			sourceTree = "<group>";
+		};
+		A3188DD31A04B46F00F3500E /* My Page */ = {
+			isa = PBXGroup;
+			children = (
+				A3188DD61A04B48A00F3500E /* WEMyPageViewController.swift */,
+			);
+			name = "My Page";
+			sourceTree = "<group>";
+		};
+		A3CCC0891A08D81D0089A899 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A3CCC08A1A08D82F0089A899 /* WELoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3188D851A0377A200F3500E /* WAEAT_prototype3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3188DA51A0377A200F3500E /* Build configuration list for PBXNativeTarget "WAEAT_prototype3" */;
+			buildPhases = (
+				A3188D821A0377A200F3500E /* Sources */,
+				A3188D831A0377A200F3500E /* Frameworks */,
+				A3188D841A0377A200F3500E /* Resources */,
+				A3188DB21A03783800F3500E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WAEAT_prototype3;
+			productName = WAEAT_prototype3;
+			productReference = A3188D861A0377A200F3500E /* WAEAT_prototype3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3188D9A1A0377A200F3500E /* WAEAT_prototype3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3188DA81A0377A200F3500E /* Build configuration list for PBXNativeTarget "WAEAT_prototype3Tests" */;
+			buildPhases = (
+				A3188D971A0377A200F3500E /* Sources */,
+				A3188D981A0377A200F3500E /* Frameworks */,
+				A3188D991A0377A200F3500E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3188D9D1A0377A200F3500E /* PBXTargetDependency */,
+			);
+			name = WAEAT_prototype3Tests;
+			productName = WAEAT_prototype3Tests;
+			productReference = A3188D9B1A0377A200F3500E /* WAEAT_prototype3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3188D7E1A0377A200F3500E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Lee Junho";
+				TargetAttributes = {
+					A3188D851A0377A200F3500E = {
+						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = FPY265UZF4;
+					};
+					A3188D9A1A0377A200F3500E = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A3188D851A0377A200F3500E;
+					};
+				};
+			};
+			buildConfigurationList = A3188D811A0377A200F3500E /* Build configuration list for PBXProject "WAEAT_prototype3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3188D7D1A0377A200F3500E;
+			productRefGroup = A3188D871A0377A200F3500E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3188D851A0377A200F3500E /* WAEAT_prototype3 */,
+				A3188D9A1A0377A200F3500E /* WAEAT_prototype3Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3188D841A0377A200F3500E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3188DC21A03B49100F3500E /* people.png in Resources */,
+				A3188D961A0377A200F3500E /* LaunchScreen.xib in Resources */,
+				A356A3651A08707900E8CD9C /* temp0.png in Resources */,
+				A356A3661A08707900E8CD9C /* temp1.png in Resources */,
+				A3188DC81A03BC2000F3500E /* phone.png in Resources */,
+				A3188DC41A03B5CC00F3500E /* time.png in Resources */,
+				A3188DCA1A04A71300F3500E /* location.png in Resources */,
+				A3188D931A0377A200F3500E /* Images.xcassets in Resources */,
+				A356A3671A08707900E8CD9C /* temp2.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3188D991A0377A200F3500E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A3188DB21A03783800F3500E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/bash\nbuildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"$INFOPLIST_FILE\")\nbuildNumber=$(echo $buildNumber | sed 's/0*//')\nbuildNumber=$(($buildNumber + 1))\nbuildNumber=$(printf \"%04d\" $buildNumber)\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"$INFOPLIST_FILE\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3188D821A0377A200F3500E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3188DBC1A037F1B00F3500E /* StoreDatabase.swift in Sources */,
+				A3188DB71A037AA600F3500E /* TestClass.m in Sources */,
+				A3188D8C1A0377A200F3500E /* AppDelegate.swift in Sources */,
+				A3A718DA1A078564007CC527 /* WEReservationConfirmViewController.swift in Sources */,
+				A356A3691A08827400E8CD9C /* ReservationDatabase.swift in Sources */,
+				A3188DD71A04B48A00F3500E /* WEMyPageViewController.swift in Sources */,
+				A3188DC61A03B93900F3500E /* WEStoreDetailViewController.swift in Sources */,
+				A356A3611A086EF800E8CD9C /* WEEventTableViewCell.swift in Sources */,
+				A3188DD21A04B3FA00F3500E /* WEFriendViewController.swift in Sources */,
+				A3188DCC1A04B1AB00F3500E /* WEReservationViewController.swift in Sources */,
+				A356A36F1A08A3AC00E8CD9C /* WEMyReservationDetailViewController.swift in Sources */,
+				A3342D931A09C20600B732EC /* UserDatabase.swift in Sources */,
+				A3CCC08B1A08D82F0089A899 /* WELoginViewController.swift in Sources */,
+				A356A36D1A0892FB00E8CD9C /* WEMyWaitingTableViewCell.swift in Sources */,
+				A3188DB11A03781000F3500E /* WEHomeViewController.swift in Sources */,
+				A356A36B1A088E9F00E8CD9C /* ReservationObject.swift in Sources */,
+				A3188DCF1A04B2B400F3500E /* WEMyWaitingViewController.swift in Sources */,
+				A3188DBF1A037FAF00F3500E /* StoreObject.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3188D971A0377A200F3500E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3188DA21A0377A200F3500E /* WAEAT_prototype3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3188D9D1A0377A200F3500E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3188D851A0377A200F3500E /* WAEAT_prototype3 */;
+			targetProxy = A3188D9C1A0377A200F3500E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3188D941A0377A200F3500E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3188D951A0377A200F3500E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3188DA31A0377A200F3500E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3188DA41A0377A200F3500E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3188DA61A0377A200F3500E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WAEAT_prototype3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WAEAT_prototype3/WAEAT_prototype3-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3188DA71A0377A200F3500E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WAEAT_prototype3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "WAEAT_prototype3/WAEAT_prototype3-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		A3188DA91A0377A200F3500E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WAEAT_prototype3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAEAT_prototype3.app/WAEAT_prototype3";
+			};
+			name = Debug;
+		};
+		A3188DAA1A0377A200F3500E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WAEAT_prototype3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WAEAT_prototype3.app/WAEAT_prototype3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3188D811A0377A200F3500E /* Build configuration list for PBXProject "WAEAT_prototype3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3188DA31A0377A200F3500E /* Debug */,
+				A3188DA41A0377A200F3500E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3188DA51A0377A200F3500E /* Build configuration list for PBXNativeTarget "WAEAT_prototype3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3188DA61A0377A200F3500E /* Debug */,
+				A3188DA71A0377A200F3500E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3188DA81A0377A200F3500E /* Build configuration list for PBXNativeTarget "WAEAT_prototype3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3188DA91A0377A200F3500E /* Debug */,
+				A3188DAA1A0377A200F3500E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3188D7E1A0377A200F3500E /* Project object */;
+}
